@@ -45,29 +45,51 @@ public class MyPanelClass extends JPanel {
                         //g.setColor(Color.ORANGE);
                         //g.fillOval(x1+123, y1+123, 55, 55);
                         
-                        Polygon p = new Polygon();
-                        p.addPoint(x1 + 5, y1 + 25);
-                        p.addPoint(x1 + 20, y1 + 10);
-                        p.addPoint(x1 + 35, y1 + 25);
-                        p.addPoint(x1 + 25, y1 + 25);
-                        p.addPoint(x1 + 25, y1 + 45);
-                        p.addPoint(x1 + 15, y1 + 45);
-                        p.addPoint(x1 + 15, y1 + 25);
-                        g.setColor(Color.YELLOW);
+//                        Polygon p = new Polygon();
+//                        p.addPoint(x1 + 5, y1 + 25);
+//                        p.addPoint(x1 + 20, y1 + 10);
+//                        p.addPoint(x1 + 35, y1 + 25);
+//                        p.addPoint(x1 + 25, y1 + 25);
+//                        p.addPoint(x1 + 25, y1 + 45);
+//                        p.addPoint(x1 + 15, y1 + 45);
+//                        p.addPoint(x1 + 15, y1 + 25);
+//                        g.setColor(Color.YELLOW);
                         //g.fillPolygon(p);
                         
-                        Polygon p2 = new Polygon();
-                        p2.addPoint(x1 + 25, y1 + 73);
-                        p2.addPoint(x1 + 41, y1 + 73);
-                        p2.addPoint(x1 + 47, y1 + 58);
-                        p2.addPoint(x1 + 53, y1 + 73);
-                        p2.addPoint(x1 + 69, y1 + 73);
-                        p2.addPoint(x1 + 56, y1 + 83);
-                        p2.addPoint(x1 + 61, y1 + 98);
-                        p2.addPoint(x1 + 47, y1 + 88);
-                        p2.addPoint(x1 + 34, y1 + 98);
-                        p2.addPoint(x1 + 38, y1 + 83);
+//                        Polygon p2 = new Polygon();
+//                        p2.addPoint(x1 + 25, y1 + 73);
+//                        p2.addPoint(x1 + 41, y1 + 73);
+//                        p2.addPoint(x1 + 47, y1 + 58);
+//                        p2.addPoint(x1 + 53, y1 + 73);
+//                        p2.addPoint(x1 + 69, y1 + 73);
+//                        p2.addPoint(x1 + 56, y1 + 83);
+//                        p2.addPoint(x1 + 61, y1 + 98);
+//                        p2.addPoint(x1 + 47, y1 + 88);
+//                        p2.addPoint(x1 + 34, y1 + 98);
+//                        p2.addPoint(x1 + 38, y1 + 83);
+//                        g.setColor(Color.WHITE);
+                        //g.drawPolygon(p2);
+                        
+                        //Puerto Rican Flag (NOT FINISHED)
+                        Polygon p3 = new Polygon();
+                        p3.addPoint(x1 + 125, y1 + 73);
+                        p3.addPoint(x1 + 141, y1 + 73);
+                        p3.addPoint(x1 + 147, y1 + 8);
+                        p3.addPoint(x1 + 153, y1 + 73);
+                        p3.addPoint(x1 + 169, y1 + 73);
+                        p3.addPoint(x1 + 156, y1 + 83);
+                        p3.addPoint(x1 + 161, y1 + 98);
+                        p3.addPoint(x1 + 147, y1 + 88);
+                        p3.addPoint(x1 + 134, y1 + 98);
+                        p3.addPoint(x1 + 138, y1 + 83);
                         g.setColor(Color.WHITE);
-                        g.drawPolygon(p2);
+                        g.fillPolygon(p3);
+                        
+                        //Two Lines
+                        g.setColor(Color.BLACK);
+                        g.drawLine(x1, y1, x2/2, y2/2);
+                        g.setColor(Color.BLACK);
+                        g.drawLine(x1+285, y1, x2-285, y2);
+                        
             }
 }
